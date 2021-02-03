@@ -1,0 +1,8 @@
+{
+  "extends": ["eslint-config-sumikko/node","eslint-config-sumikko/react"],
+   "rules": {
+    "node/no-unpublished-import": ["error", {
+      "allowModules": ["vite","@vitejs/plugin-react-refresh"]
+    }]
+}
+}
